@@ -96,8 +96,8 @@ class Utilities(context: Context) : UtilitiesInterface {
     override
     fun getDateTime(): String?{
         try {
-            val formatter = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH)
-            val date = formatter.format(Calendar.getInstance().time) // this never ends while debugging
+            val formatter = SimpleDateFormat("dd/MM/yyyy   HH:mm:ss", Locale.ENGLISH);
+            val date = formatter.format(Calendar.getInstance().time);
             return date.toString();
         } catch (e: Exception){
            return null;

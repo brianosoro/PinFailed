@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pin Failed</string>
+    <string name="app_ver">0.0.0.1</string>
+    <string name="home">Home</string>
+    <string name="settings">About</string>
+    <string name="tagline">Get all PIN attempts</string>
+    <string name="email">apps@symatechlabs.com</string>
+    <string name="website">symatechlabs.com</string>
+    <string name="admin_mode">Enable Administration Mode</string>
+    <string name="allow_perms">Allow Permissions</string>
+    <string name="no_pins">No wrong PINS yet</string>
+    <string name="why_enable">Why do I need to enable?</string>
+</resources>

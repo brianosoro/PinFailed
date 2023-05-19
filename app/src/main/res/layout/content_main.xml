@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bodyColor">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:listitem="@layout/pin_entry_layout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enableAdmin"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_selector"
+        android:fontFamily="@font/museo"
+        android:paddingLeft="@dimen/size_12"
+        android:paddingRight="@dimen/size_12"
+        android:layout_marginBottom="@dimen/size_7"
+        android:text="@string/admin_mode"
+        android:textColor="@color/primaryWhite" />
+
+    <TextView
+        android:id="@+id/why"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/museo"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/enableAdmin"
+        android:text="@string/why_enable"
+        android:layout_marginTop="@dimen/size_12"
+        android:textColor="@color/light_gray"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:id="@+id/noPinsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:src="@drawable/ic_coffee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/museo"
+            android:gravity="center_horizontal"
+            android:text="@string/no_pins"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

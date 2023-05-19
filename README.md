@@ -1,3 +1,5 @@
+
+# 1. PinFailed App Screens
 ![1_google-pixel5-sortasage-portrait](https://github.com/brianosoro/PinFailed/assets/5961753/033856cc-aa12-4f20-bb0e-f0e54be961af) 
 ![2_google-pixel5-sortasage-portrait](https://github.com/brianosoro/PinFailed/assets/5961753/f4e7d6c4-4e84-4a75-939c-ec9f280db852)
 ![3_google-pixel5-sortasage-portrait](https://github.com/brianosoro/PinFailed/assets/5961753/1d330b8a-dd4c-4413-99db-db4c8889a602)
@@ -9,15 +11,14 @@
 
 
 
-# PinFailed
+# 2. What is PinFailed
 Get all failed PIN unlock attempts on your Android Phone.
 
 ## Prerequisites (Not required as such)
 
-[Dagger](https://developer.android.com/training/dependency-injection/dagger-android)
+<a href="https://developer.android.com/training/dependency-injection/dagger-android" target="_blank">Dagger</a>
 
-[Database Caching Room](https://developer.android.com/training/data-storage/room)
-
+<a href="https://developer.android.com/training/data-storage/room" target="_blank">Database Caching Using Room</a>
 
 ## You may find the following interesting
 

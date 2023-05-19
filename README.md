@@ -18,7 +18,9 @@ Get all failed PIN unlock attempts on your Android Phone.
 
 <a href="https://developer.android.com/training/dependency-injection/dagger-android" target="_blank">Dagger</a>
 
+
 <a href="https://developer.android.com/training/data-storage/room" target="_blank">Database Caching Using Room</a>
+
 
 ## You may find the following interesting
 

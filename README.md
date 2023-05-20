@@ -12,7 +12,7 @@
 
 
 # 2. What is Pin Failed
-Get all failed PIN unlock attempts on your Android Device.
+Pin Failed let's you to get all failed PIN unlock attempts on your Android Device.
 
 ## Prerequisites (Not required as such)
 

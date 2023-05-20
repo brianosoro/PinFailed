@@ -1,5 +1,5 @@
 
-# 1. PinFailed App Screens
+# 1. Pin Failed App Screens
 ![1_google-pixel5-sortasage-portrait](https://github.com/brianosoro/PinFailed/assets/5961753/033856cc-aa12-4f20-bb0e-f0e54be961af) 
 ![2_google-pixel5-sortasage-portrait](https://github.com/brianosoro/PinFailed/assets/5961753/f4e7d6c4-4e84-4a75-939c-ec9f280db852)
 ![3_google-pixel5-sortasage-portrait](https://github.com/brianosoro/PinFailed/assets/5961753/1d330b8a-dd4c-4413-99db-db4c8889a602)
@@ -11,7 +11,7 @@
 
 
 
-# 2. What is PinFailed
+# 2. What is Pin Failed
 Get all failed PIN unlock attempts on your Android Device.
 
 ## Prerequisites (Not required as such)
@@ -22,7 +22,7 @@ Get all failed PIN unlock attempts on your Android Device.
 <a href="https://developer.android.com/training/data-storage/room" target="_blank">Database Caching Using Room</a>
 
 
-## You may find the following interesting
+# 3. Interesting Things Used In The Pin Failed Project
 
 Interesting Thing  | Thing In Detail
 ------------- | -------------

@@ -1,15 +1,36 @@
 pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
+    buildscript {
+        repositories {
+            gradlePluginPortal()
+            google()
+            mavenCentral()
+            jcenter()
+            maven { url 'https://maven.google.com' }
+            maven { url 'https://jitpack.io' }
+            maven {
+                url = uri("https://storage.googleapis.com/r8-releases/raw")
+            }
+        }
+        dependencies {
+            classpath("com.android.tools:r8:8.2.24")
+            classpath("com.android.tools.build:gradle:8.1.1")
+            classpath("com.google.gms:google-services:4.4.0")
+            classpath("com.google.firebase:firebase-crashlytics-gradle:2.9.9")
+        }
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
+        jcenter()
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://jitpack.io' }
+        maven {
+            url = uri("https://storage.googleapis.com/r8-releases/raw")
+        }
     }
 }
 rootProject.name = "Pin Failed"

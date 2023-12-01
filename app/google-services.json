@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318152707139",
+    "project_id": "pinfailed",
+    "storage_bucket": "pinfailed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318152707139:android:cd46179b4b4f8fd5f358f6",
+        "android_client_info": {
+          "package_name": "com.symatechlabs.pinfailed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJu1mrKx1H_ceEhislgVJWLTG87Ul9ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

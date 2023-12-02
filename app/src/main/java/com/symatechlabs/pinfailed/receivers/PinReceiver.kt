@@ -26,6 +26,7 @@ class PinReceiver: DeviceAdminReceiver() {
         try {
             var utilities = Utilities(context);
             pinRepository.insertPin(Pin(0, PIN_FAILED_ATTEMPT, utilities.getDateTime()));
+
 /*            cameraIntentService = Intent(context, CameraService::class.java);
             cameraIntentService.putExtra("Front_Request", true);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

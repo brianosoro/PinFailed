@@ -18,7 +18,7 @@ import javax.inject.Inject
 class PinReceiver: DeviceAdminReceiver() {
     @Inject
     lateinit var pinRepository: PinRepository;
-    lateinit var cameraIntentService: Intent;
+/*    lateinit var cameraIntentService: Intent;*/
 
 
     override fun onPasswordFailed(context: Context, intent: Intent) {
@@ -26,13 +26,13 @@ class PinReceiver: DeviceAdminReceiver() {
         try {
             var utilities = Utilities(context);
             pinRepository.insertPin(Pin(0, PIN_FAILED_ATTEMPT, utilities.getDateTime()));
-            cameraIntentService = Intent(context, CameraService::class.java);
+/*            cameraIntentService = Intent(context, CameraService::class.java);
             cameraIntentService.putExtra("Front_Request", true);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 context.startForegroundService(cameraIntentService)
             }else{
                 context.startService(cameraIntentService);
-            }
+            }*/
 
             Log.d(LOG_TAG, "SUCCESS");
         }catch (exception: Exception){

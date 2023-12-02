@@ -55,8 +55,8 @@ class HomeFragmentFragmentMvc(
                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
                 Manifest.permission.BIND_DEVICE_ADMIN,
                 Manifest.permission.ACCESS_NOTIFICATION_POLICY,
-                Manifest.permission.BIND_NOTIFICATION_LISTENER_SERVICE,
-                Manifest.permission.CAMERA,
+                Manifest.permission.BIND_NOTIFICATION_LISTENER_SERVICE,/*,
+                Manifest.permission.CAMERA,*/
                 Manifest.permission.SYSTEM_ALERT_WINDOW
             )
         ) {
